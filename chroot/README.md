@@ -1,6 +1,6 @@
 # Chroot
 
-> **WARNING**: Remember that if you subsequently use the target machine directly at its keyboard (rather than through the ssh/screen combination as here), you'll be working outside of the chroot, and all your paths will be incorrect (e.g. the new system will still appear at /mnt/gentoo/). It's an easy mistake to make, hence the renaming of the prompts. Once the kernel is built and the machine rebooted, we'll be 'natively' inside the new system, at which point this path issue will disappear.
+> **WARNING**: Remember that if you subsequently use the target machine directly at its keyboard, you'll be working outside of the chroot, and all your paths will be incorrect (e.g. the new system will still appear at /mnt/gentoo/). It's an easy mistake to make, hence the renaming of the prompts. Once the kernel is built and the machine rebooted, we'll be 'natively' inside the new system, at which point this path issue will disappear.
 
 ``` bash
 #!/bin/bash
