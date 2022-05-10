@@ -70,6 +70,8 @@ awk -F'"' '/NAME/ {print tolower($2)} /NR=2/' /etc/os-release|head -n 1
 ```
 ### Get your monitor/screen model 
 
+- Not from myself, unknown author but it's AWESOME!
+
 ```sh
 while read -r output hex conn; do
     [[ -z "$conn" ]] && conn=${output%%-*}
