@@ -12,7 +12,7 @@ I hope you find something useful.
 
 *** 
 
-### Rounds Slower is better, as slow as you can tolerate. Timing for different -a values, each measured 20 times:
+### Rounds Slower is better for ssh-keygen -a, as slow as you can tolerate. Timing for different -a values, each measured 20 times:
 
 ```sh
 for j in 16 32 64 100 150; do
