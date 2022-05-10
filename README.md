@@ -159,3 +159,13 @@ for d in /sys/kernel/iommu_groups/*/devices/*; do
     lspci -nns "${d##*/}"; 
 done
 ```
+
+
+## We want to open the correct editor based on what environment we are using
+
+    if [ x$DISPLAY != x ]; then
+       echo 'set editor="gvim -f"'
+     else
+       echo 'set editor=vim'
+     fi
+
